@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Our projects</title>
+</head>
+
+<body>
+    <header>
+        <a href="/index.html"><img src="img/logo.svg" alt="Logo du site" class="logo-img"></a>
+
+        <nav>
+            <label class="label-nav"><img src="img/menu-burger.png" alt="Menu"></label>
+            <input type="checkbox" id="checkbox-nav">
+            <ul class="header-nav">
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="ourStudio.html">Our studio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="h1-contact">get in touch</h1>
+        <p class="p-contact">The creative web & mobile studio and focused on brand identity, web development and social marketing.</p>
+
+        <form action="/" method="get" class="form-contact">
+                <input type="text" name="name" id="name" placeholder="Name" required>
+                <input type="email" name="user_mail" id="mail" placeholder="Email" required>
+                <input type="tel" name="phone" id="phone" placeholder="Phone Number" required>
+                <select name="budget-select" id="budget-select" required>
+                    <option value="">Budget Select</option>
+                    <option value="low">Moins de 1000€</option>
+                    <option value="medium">Entre 1000€ et 3000€</option>
+                    <option value="high">Plus de 3000€</option>
+                </select>
+                <textarea name="Project Details" id="message" cols="30" rows="10" placeholder="Project Details"></textarea>
+               
+                <button type="submit" class="button-form-contact">Send Message</button>
+        </form>
+    </main>
+
+    <footer>
+        <div> 
+            <section class="grid-container-footer">
+                <a href="/"><img src="img/logo.svg" alt="Logo du site" class="logo-img"></a>
+                <article>
+                    <p>124 Market Street, Suite 3570 San Francisco, CA</p>
+                    <p>3042 United States</p>
+                </article>
+                <article>
+                    <p>hello@yourstudio.co</p>
+                    <p>(+01) 2048937 / 02 203403</p>
+                </article>
+            </section>
+
+            <section class="copyright">
+                <p><i class="fa-solid fa-copyright"></i> &nbsp;Copyright Magnet Studio | All Rights Reserved.</p>
+
+                <article>
+                    <a href="https://www.Facebook.com" target="_blank">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="https://www.twitter.com" target="_blank">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com" target="_blank">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </article>
+            </section>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/749a2d071e.js" crossorigin="anonymous"></script>
+</body>
+</html>

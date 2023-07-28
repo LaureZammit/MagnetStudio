@@ -1,0 +1,16 @@
+Google font à utiliser : work sans
+
+Liens du menu :
+
+- taille de texte 16px
+- couleur : #333
+
+taille du logo : 36px
+
+Grand titre : 32px, couleur #333 font weight 300
+
+Couleur des borders : #333
+
+Petit titres/ grand paragraphes : 32px, #333, font weight 300
+
+paragraphes : 15px, #777 
