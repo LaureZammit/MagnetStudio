@@ -94,7 +94,9 @@
   ## Remerciements
   
   * [Vincent ERRANTE](https://www.errantevincent.com/) - Formateur
+
   * [Othneildrew](https://github.com/othneildrew/Best-README-Template/blob/master/README.md) - Readme Template
+  * [PurpleBooth](https://github.com/PurpleBooth/a-good-readme-template) : modèle de Readme très complet
   
   <p align="right"><a href="#readme-top">Haut de la page ⬆️</a></p>
 
